@@ -4,7 +4,8 @@
     <div><span>id: </span>{{hero.id}}</div>
     <div>
       <label>name:
-        <input [(ngModel)]="hero.name" placeholder="name"/>
+        <input [(ngModel)]="hero.name" placeholder="name" />
+        <button (click)="updateHero(hero)">Save</button>
       </label>
     </div>
   
